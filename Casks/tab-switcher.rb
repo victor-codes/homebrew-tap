@@ -7,7 +7,7 @@ cask "tab-switcher" do
   desc "Most-recently-used tab switching for Safari"
   homepage "https://github.com/victor-codes/tab-switcher"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tab Switcher.app"
 
