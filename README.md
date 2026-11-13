@@ -1,7 +1,9 @@
 # victor-codes/homebrew-tap
 
 ```sh
-brew install --cask victor-codes/tap/tab-switcher
+brew tap victor-codes/tap
+brew trust victor-codes/tap
+brew install --cask tab-switcher
 ```
 
 Casks are updated by `tools/release.sh` in [tab-switcher](https://github.com/victor-codes/tab-switcher).
