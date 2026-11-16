@@ -20,6 +20,9 @@ cask "tab-switcher" do
   ]
 
   caveats <<~EOS
+    If Safari is open, quit it (Cmd-Q) and open it again after installing or
+    upgrading. Until then the extension can't reach the app.
+
     Open Tab Switcher once, then turn it on in Safari > Settings > Extensions
     and allow it on Other Websites.
 
