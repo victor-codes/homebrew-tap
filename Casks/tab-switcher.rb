@@ -1,6 +1,6 @@
 cask "tab-switcher" do
-  version "1.1.0"
-  sha256 "07c8822fcaf21a0a1fa319a9e2e25caf2c86be0c005cfc335caa46e8c361823c"
+  version "1.1.1"
+  sha256 "ba4292b4e17eb7c1ff6670600271d7c005516454d6faa17d89259c6d9bb848b3"
 
   url "https://github.com/victor-codes/tab-switcher/releases/download/v#{version}/TabSwitcher-#{version}.zip"
   name "Tab Switcher"
@@ -11,12 +11,12 @@ cask "tab-switcher" do
 
   app "Tab Switcher.app"
 
-  uninstall quit: "com.example.tabflip"
+  uninstall quit: "xyz.ayovictor.tabswitcher"
 
   zap trash: [
-    "~/Library/Containers/com.example.tabflip",
-    "~/Library/Containers/com.example.tabflip.Extension",
-    "~/Library/Group Containers/4V436AF4L4.tabflip",
+    "~/Library/Containers/xyz.ayovictor.tabswitcher",
+    "~/Library/Containers/xyz.ayovictor.tabswitcher.Extension",
+    "~/Library/Group Containers/4V436AF4L4.tabswitcher",
   ]
 
   caveats <<~EOS
