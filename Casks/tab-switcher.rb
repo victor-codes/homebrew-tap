@@ -1,6 +1,6 @@
 cask "tab-switcher" do
-  version "1.1.2"
-  sha256 "90371f8180f33f52add19030f09fa6a9d06880409e950b995d414ce48323ca21"
+  version "1.1.3"
+  sha256 "df27138f44789cec45afaac81ec09a701f99c9faddf98786b390803bd3db8ebb"
 
   url "https://github.com/victor-codes/tab-switcher/releases/download/v#{version}/TabSwitcher-#{version}.zip"
   name "Tab Switcher"
